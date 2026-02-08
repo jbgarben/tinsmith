@@ -5,10 +5,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tinsmith"
 version = "0.0.1"
+description = "Early-stage experimental library."
+readme = "README.md"
 requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [{name = "Julius B. Garben"}]
 
-[tool.setuptools]
-package-dir = {"" = "src"}
+dependencies = []
 
-[tool.setuptools.packages.find]
-where = ["src"]
+[project.urls]
+Homepage = "https://github.com/jbgarben/tinsmith"
